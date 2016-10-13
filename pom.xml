@@ -280,6 +280,7 @@
                                 </property>
                             </javaApiLinks>
                             <maxmemory>1024</maxmemory>
+                            <additionalparam>-Xdoclint:none</additionalparam>
                         </configuration>
                         <executions>
                             <execution>
@@ -329,6 +330,7 @@
                             </javaApiLinks>
                             <excludePackageNames>
                             </excludePackageNames>
+                            <additionalparam>-Xdoclint:none</additionalparam>
                         </configuration>
                         <executions>
                             <execution>
